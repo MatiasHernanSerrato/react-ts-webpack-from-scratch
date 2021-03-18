@@ -1,18 +1,20 @@
 const HtmlPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path');
-const { webpack } = require("webpack");
+const webpack = require("webpack");
 
 module.exports = {
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'built'),
     filename: "bundle.js"
   },
-
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", "jsx"]
+  },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|tsx|ts)$/,
         exclude: /node_modules/,
         use: [
           {
