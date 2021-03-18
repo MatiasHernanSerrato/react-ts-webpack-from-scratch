@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/MatiasHernanSerrato/react-ts-webpack-from-scratch/issues"
   },
-  "homepage": "https://github.com/MatiasHernanSerrato/react-ts-webpack-from-scratch#readme"
+  "homepage": "https://github.com/MatiasHernanSerrato/react-ts-webpack-from-scratch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
 }
