@@ -8,7 +8,7 @@ const App: FC = () => {
       Fake PNG img chang
       <p> running on this env: {env} </p>
       <p> Hi there </p>
-      <img src={Img} alt='lacoste logo' > </img>
+      <img src={Img} alt='lacoste logo' />
     </div>
   )
 };
