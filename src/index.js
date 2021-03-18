@@ -5,7 +5,7 @@ import Img from './lacoste-logo.png';
 const App = () => {
   return (
     <div>
-      React from scratch, testing webpack serve
+      Fake PNG img
       <img src={Img} alt='lacoste logo'></img>
     </div>
   )

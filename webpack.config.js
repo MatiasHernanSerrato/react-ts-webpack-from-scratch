@@ -25,6 +25,14 @@ module.exports = {
             loader: "html-loader",
           }
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader"
+          }
+        ]
       }
     ],
   },
@@ -38,7 +46,7 @@ module.exports = {
 
   devServer: {
     historyApiFallback: true,
-    port: 8010,
+    port: 8080,
   }
 
 }
